@@ -1,0 +1,56 @@
+fileFormatVersion: 2
+guid: c3dfc00620ccf59489ab1a4a7d45725a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\Modulars\gothic_window_with_painted_glass\scene.bin
+    assetPath: Assets\Modulars\gothic_window_with_painted_glass\scene.bin
+  - type: 1
+    originalUri: Assets\Modulars\gothic_window_with_painted_glass\textures\gothic_window_baseColor.png
+    assetPath: Assets\Modulars\gothic_window_with_painted_glass\textures\gothic_window_baseColor.png
+  - type: 1
+    originalUri: Assets\Modulars\gothic_window_with_painted_glass\textures\gothic_window_metallicRoughness.png
+    assetPath: Assets\Modulars\gothic_window_with_painted_glass\textures\gothic_window_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\Modulars\gothic_window_with_painted_glass\textures\gothic_window_normal.png
+    assetPath: Assets\Modulars\gothic_window_with_painted_glass\textures\gothic_window_normal.png
+  - type: 1
+    originalUri: Assets\Modulars\gothic_window_with_painted_glass\textures\window_colored_baseColor.png
+    assetPath: Assets\Modulars\gothic_window_with_painted_glass\textures\window_colored_baseColor.png
+  - type: 1
+    originalUri: Assets\Modulars\gothic_window_with_painted_glass\textures\window_colored_metallicRoughness.png
+    assetPath: Assets\Modulars\gothic_window_with_painted_glass\textures\window_colored_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\Modulars\gothic_window_with_painted_glass\textures\window_colored_emissive.png
+    assetPath: Assets\Modulars\gothic_window_with_painted_glass\textures\window_colored_emissive.png
+  - type: 1
+    originalUri: Assets\Modulars\gothic_window_with_painted_glass\textures\window_colored_normal.png
+    assetPath: Assets\Modulars\gothic_window_with_painted_glass\textures\window_colored_normal.png
+  reportItems:
+  - type: 2
+    code: 20
+    messages:
+    - KHR_materials_specular

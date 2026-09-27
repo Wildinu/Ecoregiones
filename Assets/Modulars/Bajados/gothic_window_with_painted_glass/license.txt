@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gothic window with painted glass
+* source:	https://sketchfab.com/3d-models/gothic-window-with-painted-glass-51398c3ba1344bd1a860682645fd2f6b
+* author:	FunWithBlender (https://sketchfab.com/HolmH)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gothic window with painted glass" (https://sketchfab.com/3d-models/gothic-window-with-painted-glass-51398c3ba1344bd1a860682645fd2f6b) by FunWithBlender (https://sketchfab.com/HolmH) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
