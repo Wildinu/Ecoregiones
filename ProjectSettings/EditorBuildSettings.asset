@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Probuilder.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Estepa.unity
+    guid: 4d8ce424b800cc04c87d5d33cd7cc520
+  - enabled: 1
+    path: Assets/Scenes/Selva.unity
+    guid: 0241ac0fab8e9b847b372b1c212c3565
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
