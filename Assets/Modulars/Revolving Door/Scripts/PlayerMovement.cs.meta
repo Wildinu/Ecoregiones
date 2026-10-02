@@ -15,5 +15,5 @@ AssetOrigin:
   productId: 153549
   packageName: Automatic Revolving Door
   packageVersion: 1.2
-  assetPath: Assets/Revolving Door/Scripts/PlayerMovement.cs
+  assetPath: Assets/Modulars/Revolving Door/Scripts/PlayerMovement.cs
   uploadId: 722818

@@ -79,5 +79,6 @@ AssetOrigin:
   productId: 153549
   packageName: Automatic Revolving Door
   packageVersion: 1.2
-  assetPath: Assets/Revolving Door/Textures/RevolvingDoor/Revolving Door LOD0_LOD0_MetallicSmoothness.png
+  assetPath: Assets/Modulars/Revolving Door/Textures/RevolvingDoor/Revolving Door
+    LOD0_LOD0_MetallicSmoothness.png
   uploadId: 722818
