@@ -8,6 +8,7 @@ public class MenuPrincipal : MonoBehaviour
 
     [Header("Panel de opciones (opcional)")]
     public GameObject panelOpciones;
+    public GameObject panelCreditos;
 
     private void Start()
     {
@@ -16,6 +17,7 @@ public class MenuPrincipal : MonoBehaviour
         Cursor.visible = true;
 
         if (panelOpciones != null) panelOpciones.SetActive(false);
+        if (panelCreditos != null) panelCreditos.SetActive(false);
     }
 
    
@@ -25,6 +27,7 @@ public class MenuPrincipal : MonoBehaviour
         PlayerPosition.hasSavedPosition = false;
 
         SceneManager.LoadScene(escenaSimulador);
+        GameManager.Reiniciar();
     }
 
      public void AbrirOpciones()
@@ -36,5 +39,15 @@ public class MenuPrincipal : MonoBehaviour
     public void CerrarOpciones()
     {
         if (panelOpciones != null) panelOpciones.SetActive(false);
+    }
+    public void AbrirCreditos()
+    {
+        if (panelCreditos != null) panelCreditos.SetActive(true);
+    }
+
+   
+    public void CerrarCreditos()
+    {
+        if (panelCreditos != null) panelCreditos.SetActive(false);
     }
 }
