@@ -6,7 +6,7 @@ public class InteraccionJugador : MonoBehaviour
 {
     [Header("Rayo")]
     public Transform rayOrigin;          
-    public float distance = 2f;          
+    public float distance = 3f;          
     public LayerMask interactiveLayer;   
 
     [Header("Cartel en pantalla")]
@@ -16,8 +16,6 @@ public class InteraccionJugador : MonoBehaviour
     [Header("Tecla")]
     public KeyCode teclaInteractuar = KeyCode.E;
 
-    private PortalEcosistema portalActual;
-
     private void Start()
     {
         if (rayOrigin == null && Camera.main != null) rayOrigin = Camera.main.transform;
@@ -26,35 +24,39 @@ public class InteraccionJugador : MonoBehaviour
 
     private void Update()
     {
-        portalActual = null;
+        PortalEcosistema portal = null;
+        Cartelconinfo info = null;
 
         Ray rayito = new Ray(rayOrigin.position, rayOrigin.forward);
 
-        
         if (Physics.Raycast(rayito, out RaycastHit hit, distance, interactiveLayer, QueryTriggerInteraction.Collide))
         {
-            
-            portalActual = hit.collider.GetComponentInParent<PortalEcosistema>();
+            portal = hit.collider.GetComponentInParent<PortalEcosistema>();
+            info = hit.collider.GetComponentInParent<Cartelconinfo>();
         }
 
-        if (portalActual != null)
+        if (portal != null)
         {
-            if (textoCartel != null) textoCartel.text = portalActual.mensaje;
+            textoCartel.text = portal.mensaje;
             MostrarCartel(true);
 
             if (Input.GetKeyDown(teclaInteractuar))
             {
                 MostrarCartel(false);
-                portalActual.Interactuar(transform);
+                portal.Interactuar(transform);
             }
+        }
+        else if (info != null)
+        {
+            textoCartel.text = info.mensaje;
+            MostrarCartel(true);
         }
         else
         {
             MostrarCartel(false);
         }
 
-        Debug.DrawRay(rayOrigin.position, rayOrigin.forward * distance, Color.green);
-    }
+        }
 
     private void MostrarCartel(bool visible)
     {

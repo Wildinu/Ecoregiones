@@ -50,4 +50,8 @@ public class MenuPrincipal : MonoBehaviour
     {
         if (panelCreditos != null) panelCreditos.SetActive(false);
     }
+    public void Salir()
+    {
+        Application.Quit();
+    }
 }
