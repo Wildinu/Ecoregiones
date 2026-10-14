@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 1228530271}
   - component: {fileID: 1228530270}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Cubede bloqueo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1167,6 +1167,10 @@ PrefabInstance:
     - target: {fileID: 3610323782482886247, guid: 9066f0bb90b886b4eb345b7c4660770f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342404356490110741, guid: 9066f0bb90b886b4eb345b7c4660770f, type: 3}
+      propertyPath: _moveSpeed
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
